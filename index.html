@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería el Refugio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="assets/img/Screenshot 2022-03-02 at 08-37-17 Free Logo Maker by Zyro.png" alt="logo"></div>
+        <div class="logo-texto"><h2>Pastelería El Refugio</h2></div>
+        <div class="clearfix"></div>
+        <div class="text-top"><p>Porque darte el mejor servicio es nuestra mayor satisfacción.</p><br><p>Hacemos pasteles para toda ocasión, solo elije los sabores de tu preferencia, decoración, tamaño y nostros nos ponemos en contacto contigo.</p></div>
+    </nav>
+    <hr>
+    <article>
+        <div class="secciones">
+            <p class="title-form">Elige tu sabor</p>
+            <hr>
+            <form action="">
+                <label class="inputSabor"><input type="checkbox" id="chbxChoc">Chocolate</label><br><img class="imgSabor" src="assets/img/chocolate.jpg" alt="chocolate"><br>
+                <label class="inputSabor"><input type="checkbox" id="chbxFres">Fresa</label><br><img class="imgSabor" src="assets/img/fresa.jpg" alt="fresa"><br>
+                <label class="inputSabor"><input type="checkbox" id="chbxCafe">Cafe</label><br><img class="imgSabor" src="assets/img/cafe.jpg" alt="cafe"><br>
+                <label class="inputSabor"><input type="checkbox" id="chbxVain">Vainilla</label><br><img class="imgSabor" src="assets/img/vainilla.jpg" alt="vainilla"><br>
+                <label class="inputSabor"><input type="checkbox" id="chbxLimo">Limón</label><br><img class="imgSabor" src="assets/img/limon.jpg" alt="limon"><br>
+                <label class="inputSabor"><input type="checkbox" id="chbxImpo">Imposible</label><br><img class="imgSabor" src="assets/img/imposible.jpg" alt="imposible"><br>
+                <label for="selectTamaño">Selecciona el tamaño (una decoración incluida, por decoración extra se agregan 40.00 MXN al precio total)</label><br><br>
+                <select name="selectTamaño" id="selectTamaño">
+                    <option value="Chico 125.00 MXN">Chico 125.00 MXN</option>
+                    <option value="Mediano 175.00 MXN">Mediano 175.00 MXN</option>
+                    <option value="Grande 250.00 MXN">Grande 250.00 MXN</option>
+                    <option value="Extra grande 350.00 MXN">Extra grande 350.00 MXN</option>
+                </select><br><br>
+                <input type="button" value="Enviar Selección"><br><br>
+            </form>
+        </div>
+        <div class="secciones">
+            <p class="title-form">Elige tu decoración</p>
+            <hr>
+            <form action="">
+                <label class="deco"><input type="checkbox" id="chbxDeco1">Decoración 3D</label><br><img class="imgSabor" src="assets/img/deco3D.jpg" alt="decoración 3D"><br><br><br><br>
+                <label class="deco"><input type="checkbox" id="chbxDeco2">Decoración Geométrica</label><br><img class="imgSabor" src="assets/img/decoGeometrica.jpg" alt="decoración geométrica"><br><br><br><br>
+                <label class="deco"><input type="checkbox" id="chbxDeco3">Decoración Floral</label><br><img class="imgSabor" src="assets/img/decoFloral.jpg" alt="decoración floral"><br><br><br><br>
+                <label class="deco"><input type="checkbox" id="chbxDeco4">Decoración semidesnuda o naked</label><br><img class="imgSabor" src="assets/img/decoNaked.jpg" alt="decoración neked"><br><br><br><br>
+                <label class="deco"><input type="checkbox" id="chbxDeco5">Decoración Drip Cakes</label><br><img class="imgSabor" src="assets/img//decoDripCakes.jpg" alt="decoración drip cakes"><br><br><br>
+                <input type="button" value="Enviar Selección"><br><br>
+            </form>
+        </div>
+        <div class="secciones">
+            <p class="title-form">Llena tus datos de contacto</p>
+            <hr>
+            <form id="contacto" action="">
+                <label for="name" class="labels">Nombre</label><br>
+                <input type="text" name="name" id="name"><br>
+                <label for="lastname">Apellidos</label><br>
+                <input type="text" name="lastname" id="lastname"><br>
+                <label for="telefono">Telefono</label><br>
+                <input type="text" name="telefono" id="telefono"><br>
+                <label for="email">Correo Electronico</label><br>
+                <input type="email" name="email" id="email"><br>
+                <label for="descripcion">Datos adicionales al pastel</label><br>
+                <textarea name="descripcion" id="descripcion" cols="45" rows="10"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </article>
+    <div class="clearfix"></div>
+    <hr>
+    <footer>
+        <div id="direccion"><p class="title-form">Dirección</p>Calle Siempreviva 213, Salem North Carolina</div>
+        <div id="telefono"><p class="title-form">Telefono</p>6513870432</div>
+        <div id="horario"><p class="title-form">Horarios</p>Lunes a viernes de 9 AM a 7 PM<br>Sábados de 10 AM a 5 PM<br>Domingo de 11 AM a 1:30 PM</div>
+    </footer>
+</body>
+</html>
